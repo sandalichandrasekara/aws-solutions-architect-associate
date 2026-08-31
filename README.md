@@ -7,22 +7,6 @@ Solutions Architect - Associate exam (SAA-C03).
 
 ---
 
-## Core philosophy
-
-```
-Learn → Understand → Build → Practice → Review
-```
-
-- **Learn** the service and what problem it solves.
-- **Understand** *why* you'd pick it over the alternatives.
-- **Build** something small with your own hands (labs).
-- **Practice** applying it to realistic scenarios.
-- **Review** with the cheat sheet before the exam.
-
-Memorizing facts gets you a handful of questions. Understanding trade-offs gets you the exam.
-
----
-
 ## The exam at a glance
 
 - **Exam code:** SAA-C03
