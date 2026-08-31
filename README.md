@@ -45,6 +45,22 @@ Memorizing facts gets you a handful of questions. Understanding trade-offs gets 
 
 ---
 
+## Learning materials
+
+Recommended resources to pair with these notes. 
+
+- **Stephane Maarek - Ultimate AWS Certified Solutions Architect Associate (SAA-C03)** (Udemy). Exam-focused, well paced, great for a first pass and structured coverage.
+- **Adrian Cantrill - AWS Certified Solutions Architect - Associate** ([learn.cantrill.io](https://learn.cantrill.io/)). Deeper, hands-on, strong on the *why* behind each service. Best if you want real understanding, not just exam prep.
+- **[PassLeader](https://www.passleader.com/) SAA-C03 questions** - for exposure to question phrasing and to surface weak spots.
+- Tutorials Dojo practice exams are also widely recommended.
+
+**Official**
+
+- [AWS SAA-C03 Exam Guide](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
+- [AWS Documentation](https://docs.aws.amazon.com/) and [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/)
+
+---
+
 ## License
 
 [MIT](LICENSE) - Free to fork, adapt, and share. 
