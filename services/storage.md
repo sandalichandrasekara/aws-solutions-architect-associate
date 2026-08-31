@@ -13,7 +13,7 @@ The most-tested storage service. Objects in buckets, accessed over HTTP(S) APIs.
 - **Storage classes** (by access pattern and cost):
   - Standard - frequent access.
   - Intelligent-Tiering - unknown/changing access; auto-tiers. The "not sure" answer.
-  - Standard-IA / One Zone-IA - infrequent (One Zone = one AZ, cheaper, less durable).
+  - Standard-IA / One Zone-IA - infrequent (One Zone = one AZ, cheaper, less resilient - data lost if that AZ is destroyed).
   - Glacier Instant Retrieval / Flexible Retrieval / Deep Archive - archival, cheapest, retrieval latency grows.
 - **Lifecycle policies:** auto-transition between classes and expire objects.
 - **Versioning:** keep old versions; protects against overwrite/delete. Pair with MFA Delete.

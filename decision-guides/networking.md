@@ -62,13 +62,9 @@ Use to let private subnets talk to AWS services without a NAT gateway or interne
 
 ## Security groups vs NACLs
 
-| | Security Group | NACL |
-|--|----------------|------|
-| Scope | Instance / ENI | Subnet |
-| State | Stateful | Stateless |
-| Rules | Allow only | Allow + Deny, ordered |
-
-Default to security groups; use NACLs for coarse subnet-level allow/deny (e.g. block an IP range).
+Not really a "pick one" - you use both. Security group (stateful, instance-level) is your
+primary control; NACL (stateless, subnet-level) adds coarse allow/deny (e.g. block an IP range).
+Full comparison table in [`services/networking.md`](../services/networking.md).
 
 ---
 
